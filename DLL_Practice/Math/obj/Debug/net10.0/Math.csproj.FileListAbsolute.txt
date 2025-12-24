@@ -1,0 +1,16 @@
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\bin\Debug\net10.0\Math.deps.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\bin\Debug\net10.0\Math.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\bin\Debug\net10.0\Math.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.AssemblyInfoInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.AssemblyInfo.cs
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.csproj.CoreCompileInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.sourcelink.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\refint\Math.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\ref\Math.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.csproj.AssemblyReference.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\bin\Debug\net10.0\Common.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\bin\Debug\net10.0\Common.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Math\obj\Debug\net10.0\Math.csproj.Up2Date

@@ -1,0 +1,15 @@
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.AssemblyInfoInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.AssemblyInfo.cs
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.csproj.CoreCompileInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\bin\Debug\net10.0\NewP.exe
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\bin\Debug\net10.0\NewP.deps.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\bin\Debug\net10.0\NewP.runtimeconfig.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\bin\Debug\net10.0\NewP.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\bin\Debug\net10.0\NewP.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\refint\NewP.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.genruntimeconfig.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\ref\NewP.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\obj\Debug\net10.0\NewP.sourcelink.json

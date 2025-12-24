@@ -1,0 +1,16 @@
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\bin\Debug\net10.0\Science.deps.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\bin\Debug\net10.0\Science.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\bin\Debug\net10.0\Science.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.AssemblyInfoInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.AssemblyInfo.cs
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.csproj.CoreCompileInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.sourcelink.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\refint\Science.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\ref\Science.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.csproj.AssemblyReference.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\bin\Debug\net10.0\Common.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\bin\Debug\net10.0\Common.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Science\obj\Debug\net10.0\Science.csproj.Up2Date

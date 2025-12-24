@@ -1,0 +1,12 @@
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\bin\Debug\net10.0\Common.deps.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\bin\Debug\net10.0\Common.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\bin\Debug\net10.0\Common.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.AssemblyInfoInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.AssemblyInfo.cs
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.sourcelink.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\refint\Common.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\Common.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\DLL_Practice\Common\obj\Debug\net10.0\ref\Common.dll

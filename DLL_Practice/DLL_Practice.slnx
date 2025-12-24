@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="App.Console/App.Console.csproj" />
+  <Project Path="Common/Common.csproj" />
+  <Project Path="Math/Math.csproj" />
+  <Project Path="Science/Science.csproj" />
+</Solution>

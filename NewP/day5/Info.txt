@@ -1,0 +1,8 @@
+//Day 5
+
+Implemented the class Library - {Math , Science , Common}
+| - I created 3 lib where common lib contain the Abstract classes that are implemented in Math and Science lib.
+
+Implemented Inheritance and Polymorphism.
+| - Created Payment class file in App.Console to override the Pay() abstract method that is declared in Payment abstract class.
+| - Created a separate Project "EmployeeTaxCalculation" as well do the same task.

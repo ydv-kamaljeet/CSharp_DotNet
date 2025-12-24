@@ -1,0 +1,15 @@
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.AssemblyInfoInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.AssemblyInfo.cs
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.csproj.CoreCompileInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.sourcelink.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\bin\Debug\net10.0\InterfaceLecture.exe
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\bin\Debug\net10.0\InterfaceLecture.deps.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\bin\Debug\net10.0\InterfaceLecture.runtimeconfig.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\bin\Debug\net10.0\InterfaceLecture.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\bin\Debug\net10.0\InterfaceLecture.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\refint\InterfaceLecture.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\InterfaceLecture.genruntimeconfig.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\Day6\InterfaceLecture\obj\Debug\net10.0\ref\InterfaceLecture.dll

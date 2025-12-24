@@ -68,17 +68,17 @@ public class Program
         // SumOfDigits sd = new SumOfDigits();
         // Console.WriteLine(sd.DigitalRoot(23));
 
-         Questions q = new Questions();
+        //Questions q = new Questions();
         // q.FindQuadraticRoots(3,4,2);
         // Console.WriteLine(q.CalculateElectricityBill(43));
         // Console.WriteLine(q.CheckVowelOrConsonant('d'));
         // Console.WriteLine(q.GetTriangleType(4,5,3));
-        Console.WriteLine(q.ATMProcess(true,true,2000,500));
-        Console.WriteLine(q.Calculate(23,45,'+'));
-        Console.WriteLine(q.DescribeGrade('A'));
-        Console.WriteLine(q.FindQuadrant(3,9));
-        Console.WriteLine(q.ProfitOrLoss(500,700));
-        Console.WriteLine(q.RockPaperScissors("Rock","Paper"));
+        // Console.WriteLine(q.ATMProcess(true,true,2000,500));
+        // Console.WriteLine(q.Calculate(23,45,'+'));
+        // Console.WriteLine(q.DescribeGrade('A'));
+        // Console.WriteLine(q.FindQuadrant(3,9));
+        // Console.WriteLine(q.ProfitOrLoss(500,700));
+        // Console.WriteLine(q.RockPaperScissors("Rock","Paper"));
         
         #endregion
         

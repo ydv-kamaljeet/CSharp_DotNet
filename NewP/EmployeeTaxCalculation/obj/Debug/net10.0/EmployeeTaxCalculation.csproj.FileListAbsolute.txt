@@ -1,0 +1,15 @@
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\bin\Debug\net10.0\EmployeeTaxCalculation.exe
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\bin\Debug\net10.0\EmployeeTaxCalculation.deps.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\bin\Debug\net10.0\EmployeeTaxCalculation.runtimeconfig.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\bin\Debug\net10.0\EmployeeTaxCalculation.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\bin\Debug\net10.0\EmployeeTaxCalculation.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.AssemblyInfoInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.AssemblyInfo.cs
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.csproj.CoreCompileInputs.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.sourcelink.json
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\refint\EmployeeTaxCalculation.dll
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.pdb
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\EmployeeTaxCalculation.genruntimeconfig.cache
+C:\Users\kamaljeet\OneDrive\Desktop\Dotnet\NewP\EmployeeTaxCalculation\obj\Debug\net10.0\ref\EmployeeTaxCalculation.dll
