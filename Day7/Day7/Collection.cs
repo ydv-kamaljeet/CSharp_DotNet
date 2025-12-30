@@ -42,15 +42,15 @@ if(false){
         q.Enqueue("Guest");
     #endregion
 }
-        Stack<Student> students = new Stack<Student>;
-        Student s1 = new Student(){Id=1,Name="Kamal"};
-        students.Push(s1);
-        Student s2 = new Student(){Id=2,Name="Igllo"};
-        students.Push(s2);
-        foreach(var item in students)
-        {
-            Console.WriteLine(item);
-        }
+        // Stack<Student> students = new Stack<Student>;
+        // Student s1 = new Student(){Id=1,Name="Kamal"};
+        // students.Push(s1);
+        // Student s2 = new Student(){Id=2,Name="Igllo"};
+        // students.Push(s2);
+        // foreach(var item in students)
+        // {
+        //     Console.WriteLine(item);
+        // }
 
 
     }

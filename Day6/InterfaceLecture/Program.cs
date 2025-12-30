@@ -54,11 +54,12 @@ public class Program
 
         #endregion
 
-        IVegEater vs = new Visitor();
-        vs.EatVeg();
-        vs.Taste();
+        // IVegEater vs = new Visitor();
+        // vs.EatVeg();
+        // vs.Taste();
         
-
+        ExamScheduler ex =  new ExamScheduler();
+        ex.Execute();
         
 
     }
