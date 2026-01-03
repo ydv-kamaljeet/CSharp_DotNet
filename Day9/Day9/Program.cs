@@ -45,14 +45,17 @@ public class Program
         #endregion
 
         #region "StaticClass.cs" related operation
-        Console.WriteLine($"Value of PI is : {Utility.GetValueOfPI()}");
+        //Console.WriteLine($"Value of PI is : {Utility.GetValueOfPI()}");
         #endregion
 
         #region "PracticeQuestion/BankAccount.cs" realted Operations
-        BankAccount ba = new BankAccount(5000){AccountHolderName="Kamal",AccountNumber=1004213};
-        ba.Deposit(250);
-        ba.WithDraw(1000);
+
+        // BankAccount ba = new BankAccount(5000){AccountHolderName="Kamal",AccountNumber=1004213};
+        // ba.Deposit(250);
+        // ba.WithDraw(1000);
 
         #endregion
+    
+    
     }
 }
