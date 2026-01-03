@@ -1,18 +1,30 @@
+############################
+# .NET / C# (ALL LEVELS)
+############################
+
+**/bin/
+**/obj/
+
+############################
 # Visual Studio
+############################
+
 .vs/
 *.user
 *.suo
 *.cache
 *.log
 
-# Build results
-bin/
-obj/
+############################
+# Rider / VS Code
+############################
 
-# Rider / VSCode
 .idea/
 .vscode/
 
-# OS files
+############################
+# OS generated files
+############################
+
 Thumbs.db
 .DS_Store
