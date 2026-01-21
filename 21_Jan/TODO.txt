@@ -1,0 +1,2 @@
+I have Installed the Sql server and sql server management studio{GUI tool}
+Later I explored some features of management tool.

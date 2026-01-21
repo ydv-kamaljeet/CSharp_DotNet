@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Dynamic;
 using System.IO.Pipelines;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
@@ -143,6 +144,8 @@ public class Program
     }
 
     #region Question 1 Helper Function
+    
+    //initializing hard coded data
     public static void FeedData()
     {
         itemDetails.Add("Laptop", 1000);
@@ -152,6 +155,7 @@ public class Program
         itemDetails.Add("Tablet", 4500);
     }
 
+    //Printing the result of Items
     public static void PrintResult(SortedDictionary<string, long> result)
     {
         foreach (var item in result)
@@ -162,6 +166,8 @@ public class Program
     #endregion
 
     #region Question 2 Helper Function
+
+    //Static member function to add Movies in MovieList
     public static void AddMovie(string MovieDetails)
     {
         List<string> items = MovieDetails
@@ -171,6 +177,7 @@ public class Program
         MovieList.Add(new Movie(items[0], items[1], items[2], int.Parse(items[3])));
     }
 
+    //Fetching the moviesList based on Genre
     public static List<Movie> ViewMovieDetailsByGenre(string genre)
     {
         List<Movie> result = new List<Movie>();
@@ -182,12 +189,15 @@ public class Program
 
         return result;
     }
+
+    //Fetching movies details based on Rating (in asc order)
     public static List<Movie> ViewMovieByRatings()
     {
         List<Movie> result = MovieList.OrderBy(m => m.Ratings).ToList();
         return result;
     }
 
+    //Printing the movies details from list
     public static void PrintMovies(List<Movie> movies)
     {
         foreach (var movie in movies)
@@ -199,11 +209,13 @@ public class Program
     #endregion
 
     #region Question 3 Helper Functions
+
     public static void AddNumber(int number)
     {
         NumbersList.Add(number);
     }
 
+    //To calculate GPA from subject scores
     public static double GetGPAScored()
     {
         double GPA = 0;
@@ -220,6 +232,7 @@ public class Program
         return GPA / 10;
     }
 
+    //To get the grades wrt GPA
     public static char GetGradeScored(double gpa)
     {
         // Invalid GPA check
@@ -244,11 +257,16 @@ public class Program
     #endregion
 
     #region Question 4 Helper Fucntion
+    
+    
+    //Adding the yoga member in our MemberList
     public static void AddYogaMember(int id, int age, double wg, double hg, string goal)
     {
         MemberList.Add(new MeditationCentre(id, age, wg, hg, goal));
     }
 
+
+    //Printing details of members
     public static void PrintMember()
     {
         foreach (MeditationCentre member in MemberList)
@@ -256,6 +274,9 @@ public class Program
             Console.WriteLine($"Member Id : {member.Id} | Goal : {member.Goal}  | BMI : {member.BMI}");
         }
     }
+
+
+    //Static member function to calculate BMI of member having ID = id
     public static double CalculateBMI(int id)
     {
         double bmi = 0;
@@ -263,17 +284,18 @@ public class Program
         {
             if (member.Id == id)
             {
-                bmi = member.Weight / (member.Height * member.Height);
+                bmi = member.Weight / (member.Height * member.Height);  //calculating BMI 
                 member.BMI = bmi;
             }
         }
         return bmi;
     }
 
+
+    //static member function to calculate Fee having ID = id
     public static int CalculateYogaFee(int id)
     {
         int fees=-1;
-        //bool found=false;
         foreach (MeditationCentre member in MemberList)
         {
             if (member.Id == id)
@@ -294,16 +316,16 @@ public class Program
                     //condition
                     fees= 2500;
                 }
-                //found=true;
+                
             }
         }
-        
         return fees;
-       
     }
     #endregion
 
     #region Question 5 Helper Function
+
+    //static member function to make a payment and return the object of EcommerceShop    
     public static ECommerceShop MakePayment(string name, double balance, double amount)
     {
         if (balance < amount)
@@ -316,6 +338,8 @@ public class Program
     #endregion
 
     #region Question 6 Helper Function
+
+    //method to vaidate user based on its valid mobile number and password
     public static User ValidateUSer(string name, string pw, string cpw,string number)
     {
         if (cpw != pw)
@@ -328,6 +352,8 @@ public class Program
     #endregion
 
     #region  Question 7 Helper Function
+    
+    //Method to validate the construction estimation based on construction Area and site Area.
     public static EstimateDetails ValidateConstructionEstimation(float constArea, float siteArea)
     {
         if (constArea > siteArea)
@@ -341,3 +367,16 @@ public class Program
 
 }
 
+
+
+// private int _id;
+// public int ID
+// {
+//     Get{
+//         return _id;
+//     }
+//     Set{
+//         _id = Value;
+//     }
+//      generic.Lengthorcount(); - wrong 
+// }

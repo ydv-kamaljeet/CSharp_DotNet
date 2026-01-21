@@ -1,7 +1,6 @@
 ﻿using CustomExceptionExample;
 namespace CallbacksWithDelegates
-{
-    
+{    
     class Program
     {
         public static string logs="";//to store the actual error;
