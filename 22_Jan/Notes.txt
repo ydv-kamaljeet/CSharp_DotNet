@@ -17,6 +17,7 @@ SSMS Output Shortcuts
 Ctrl + D → Results in Grid (Table format)
 Ctrl + T → Results in Text format
 Ctrl + R → Show/Hide the Results panel
+Alt + f1 -> complete detail about table. If this doesn't work , do this  => sp_help '[Person].[EmailAddress]' 
 
 CROSS JOIN Concept
 CROSS JOIN creates a Cartesian Product.
@@ -34,3 +35,19 @@ Operators Meaning
 NOT → Negation
 IN → Multiple values comparison
 BETWEEN → Range-based filtering
+
+Stored Procedure syntax:
+alter procedure myPractice
+--optional or parameters
+@OrderId int 
+as begin
+select * from Orders where OrderId = @OrderId
+end;
+
+
+go -- Go sepearates the queries 
+exec myPractice 5001
+
+
+How to generate query  for insert using GUI : 
+right click > design queries in editor > select table > select columns > then below on the table > right click > change type > insert values> then enter value and ok.
