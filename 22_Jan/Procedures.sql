@@ -111,3 +111,5 @@ exec SP_InsertIntoUserTable '109','Rohan','singh','asfinds@gamil.com','234212314
 
 go
 
+select * from () t where t.Age > m.age; 
+
