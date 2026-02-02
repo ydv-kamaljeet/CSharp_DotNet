@@ -2,8 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 namespace GenericsProblems
 {
-    public delegate void FailMessageNotify(string studentName);
-
+    
     public class Program
     {
         public static void Main(string[] args)
@@ -39,31 +38,23 @@ namespace GenericsProblems
 
             HighestScorer<Student> scorer = new HighestScorer<Student>();
             Student topper = scorer.FindTopper(students);
-
+            
             Console.WriteLine("\n--- Topper ---");
             Console.WriteLine($"Topper Name : {topper.Name} | Total Marks : {topper.TotalMarks}");
 
-            FailMessageNotify Notify = PrintFailMessage;    //assing the function to delegate
-            Notify += PrintSuggestion;
+               
+            students.Sort();
             Console.WriteLine("\n--- Result ---");
-
+            int Rank=1;
             foreach (var student in students)
             {
-                if (student.IsFailed)
-                {
-                    Notify?.Invoke(student.Name); //  callback
-                }
+                Console.WriteLine($"{Rank++}  - {student.Name} ");
+                student.SendNotification(student);
+                Console.WriteLine();
             }
             
         }
 
-        public static void PrintFailMessage(string name)
-        {
-            Console.WriteLine($"{name} failed in his exams");
-        }
-        public static void PrintSuggestion(string name)
-        {
-            Console.WriteLine($"{name}, you need to improve and work hard.");
-        }
+        
     }
 }

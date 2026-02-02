@@ -19,5 +19,6 @@ namespace GenericsProblems
             }
             return topper;
         }
+
     }
 }
