@@ -1,0 +1,10 @@
+namespace HotelBookingSystem
+{
+    public class Room
+    {
+        public int RoomNumber { get; set; }
+        public string RoomType { get; set; } = string.Empty; // Single / Double / Suite
+        public double PricePerNight { get; set; }
+        public bool IsAvailable { get; set; } = true;
+    }
+}
