@@ -1,0 +1,108 @@
+254 : max primary key
+cascade delete can be customized.
+co-relation id   - primary and unique key
+views have - forward only ,read only - view will update -> insert update delete
+max view - 4-6 views per table
+
+
+
+performance :{
+check page count
+indexing 
+cursor
+Views
+}
+sql server uses CLR (create SP)
+cursor - need to close and dealocate 
+
+
+temporary table - #temp {local table} - cannt be shared
+##temp - global temporary table - can access by anyone in the same server.
+
+select top 5 * into ##temp from Customer;
+
+
+
+select * into #temporary from [Person].[Address];	-- local temporary table
+select top 5 * into ##temp from [Person].[Address]
+select * from #temporary;
+drop table #temporary
+truncate table #temporary
+-----------------------------------------------------------------------------------------------------------------
+
+go
+
+
+-- =============================================
+-- Description:	Procedure to create Local temporary Table
+-- =============================================
+create or alter PROCEDURE SP_CreateLocalTempTable
+as
+begin
+    select top 5 * into #temporary from [Person].[Address];
+
+    select * from #temporary
+end
+exec SP_CreateLocalTempTable 
+
+
+-- =============================================
+-- Description:	Procedure to create Global Temporary Table so that anyone can access in same server
+-- =============================================
+go
+create or alter PROCEDURE SP_CreateGlobalTempTable
+as
+begin
+    select top 10 * into ##temporary from [Person].[Address];
+
+    select * from ##temporary
+end
+exec SP_CreateGlobalTempTable 
+
+
+
+
+
+--------------------------------------------
+
+select * into #temporary from [Person].[Address];	-- local temporary table
+select top 5 * into ##temp from [Person].[Address]
+select * from #temporary;
+drop table #temporary
+truncate table #temporary
+
+
+go
+
+
+-- =============================================
+-- Description:	Procedure to create Local temporary Table
+-- =============================================
+create or alter PROCEDURE SP_CreateLocalTempTable
+as
+begin
+    select top 5 * into #temporary from [Person].[Address];
+
+    select * from #temporary
+end
+exec SP_CreateLocalTempTable 
+
+
+-- =============================================
+-- Description:	Procedure to create Global Temporary Table so that anyone can access in same server
+-- =============================================
+go
+create or alter PROCEDURE SP_CreateGlobalTempTable
+as
+begin
+    select top 10 * into ##temporary from [Person].[Address];
+
+    select * from ##temporary
+end
+exec SP_CreateGlobalTempTable 
+
+
+--------------------------------------------------------------------
+
+
+
