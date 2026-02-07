@@ -106,3 +106,6 @@ exec SP_CreateGlobalTempTable
 
 
 
+usecase , class , sequence diagram - first
+use any 1 AI  model
+Ocelot = api gateway
