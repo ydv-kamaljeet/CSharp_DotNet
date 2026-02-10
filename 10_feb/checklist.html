@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>.NET Full Checklist</title>
+
+<style>
+body{
+    font-family: Segoe UI, Arial, sans-serif;
+    background:#f4f6f9;
+    margin:20px;
+}
+h1{text-align:center;}
+h2{
+    background:#2c3e50;
+    color:white;
+    padding:8px;
+    border-radius:6px;
+}
+.topic{
+    background:white;
+    padding:6px;
+    margin:4px 0;
+    border-radius:6px;
+    display:flex;
+    justify-content:space-between;
+}
+label{margin-left:15px;font-size:14px;}
+</style>
+
+<script>
+function saveState(cb){
+    localStorage.setItem(cb.id, cb.checked);
+}
+function loadState(){
+    document.querySelectorAll("input[type=checkbox]")
+    .forEach(cb=>{
+        cb.checked = localStorage.getItem(cb.id)==="true";
+    });
+}
+window.onload = loadState;
+
+let i=0;
+function topic(name){
+document.write(`
+<div class="topic">
+<span>${name}</span>
+<span>
+<label>Done <input type="checkbox" id="d${i}" onchange="saveState(this)"></label>
+<label>Revise <input type="checkbox" id="r${i++}" onchange="saveState(this)"></label>
+</span>
+</div>
+`);
+}
+</script>
+</head>
+
+<body>
+<h1>.NET / C# Detailed Learning Checklist</h1>
+
+<h2>.NET Framework & Platform</h2>
+<script>
+topic("What is .NET Platform?");
+topic("What is .NET Framework");
+topic(".NET Framework Architecture");
+topic(".NET Framework Languages & Tools");
+topic(".NET Framework Major Components");
+topic("Common Language Runtime (CLR)");
+topic("Compilation and Execution in .NET");
+topic(".NET Framework 4.7 Stack");
+topic(".NET Core Overview");
+topic(".NET Core Versions");
+topic(".NET Core Compositions");
+topic("Dependency Injection");
+</script>
+
+<h2>C# Fundamentals</h2>
+<script>
+topic("Introduction to C#");
+topic("Features of C#");
+topic("C# Compilation & Execution");
+topic("Structure of C# Program");
+topic("Creating & Using DLL");
+topic("Data Types in C#");
+topic("Value vs Reference Types");
+topic("Boxing & Unboxing");
+topic("Single Dimensional Arrays");
+topic("Multi-Dimensional Arrays");
+topic("Jagged Arrays");
+topic("Nullable Types");
+topic("Implicitly Typed Variables");
+topic("var vs dynamic");
+topic("is operator");
+topic("as operator");
+topic("ref vs out");
+</script>
+
+<h2>Core .NET Concepts</h2>
+<script>
+topic("Object Base Class");
+topic("Equals() vs ==");
+topic("String vs StringBuilder");
+topic("String Manipulation Methods");
+topic("Default Parameters");
+topic("Named Parameters");
+topic("Parse vs TryParse vs Convert");
+</script>
+
+<h2>Visual Studio & Debugging</h2>
+<script>
+topic("Visual Studio Overview");
+topic("Tracing, Debugging & Build");
+topic("Breakpoints");
+topic("Break Conditions");
+topic("Watch & Output Window");
+topic("Multiple Projects in Solution");
+topic("Common Debugging Practices");
+topic("Structured Logging (Serilog, NLog)");
+topic("Performance Profiling");
+</script>
+
+<h2>Power Skills</h2>
+<script>
+topic("Ice Breaking & Objective Setting");
+topic("Communication Skills");
+topic("Written Communication");
+topic("Professional Grooming");
+</script>
+
+<h2>OOP in C#</h2>
+<script>
+topic("Method Hiding");
+topic("Access Modifiers");
+topic("Anonymous Types");
+topic("Abstract Classes");
+topic("Sealed Classes");
+topic("Interfaces");
+topic("Interface Inheritance");
+topic("Properties in Interfaces");
+topic("Namespaces");
+topic("Generic Classes");
+topic("Indexers & Properties");
+topic("Auto Properties");
+topic("Static Classes");
+topic("Property Accessors");
+topic("Partial Types");
+topic("Extension Methods");
+topic("Object Initializer");
+</script>
+
+<h2>Regular Expressions</h2>
+<script>
+topic("Regex Class");
+topic("Forming Regex Patterns");
+topic("Regex Methods");
+</script>
+
+<h2>Exception Handling</h2>
+<script>
+topic("Exceptions in C#");
+topic("Exception Hierarchy");
+topic("Try Block");
+topic("Multiple Catch Blocks");
+topic("Finally Block");
+topic("Throw Keyword");
+topic("Inner Exception");
+topic("Custom Exceptions");
+topic("Exception Logging");
+topic("Exception Best Practices");
+topic("Defensive Programming");
+</script>
+
+<h2>Garbage Collection</h2>
+<script>
+topic("Role of Garbage Collector");
+topic("GC Algorithm");
+topic("Finalize vs Dispose");
+</script>
+
+<h2>Collections & Generics</h2>
+<script>
+topic("System.Collections Namespace");
+topic("Collection Interfaces");
+topic("Collection Classes");
+topic("Collection API");
+topic("Generics");
+topic("Generic Classes/Methods/Delegates");
+topic("Collection Initializers");
+topic("Iterators");
+topic("Generic Constraints");
+</script>
+
+<h2>Delegates & Events</h2>
+<script>
+topic("Delegates Introduction");
+topic("Implementing Delegates");
+topic("Singlecast Delegate");
+topic("Multicast Delegate");
+topic("Callback using Delegate");
+topic("Events");
+topic("Generic Delegates");
+topic("Action Delegate");
+topic("Func Delegate");
+topic("Predicate Delegate");
+</script>
+
+<h2>File IO & Serialization</h2>
+<script>
+topic("Persisting Object State");
+topic("File Handling Classes");
+topic("StreamReader / StreamWriter");
+topic("BinaryReader / BinaryWriter");
+topic("File / Directory Classes");
+topic("SOAP Serialization");
+topic("XML Serialization");
+topic("JSON Serialization");
+</script>
+
+<h2>Reflection & Assemblies</h2>
+<script>
+topic("Reflection Introduction");
+topic("Assemblies Types");
+topic("Attributes Types");
+</script>
+
+<h2>Threading & Async Programming</h2>
+<script>
+topic("AppDomain vs Process vs Thread");
+topic("Process vs Thread");
+topic("Creating Threads");
+topic("Thread.Sleep()");
+topic("Parallelization Overview");
+topic("Task Parallel Library");
+topic("Threads vs Tasks");
+topic("Parallel Extensions");
+topic("Async Await");
+topic("Locks");
+</script>
+
+<h2>C# 8 Features</h2>
+<script>
+topic("Read-only Members");
+topic("Default Interface Methods");
+topic("Pattern Matching Enhancements");
+topic("Using Declarations");
+topic("Static Local Functions");
+topic("Disposable Ref Structs");
+topic("Nullable Reference Types");
+topic("Async Streams");
+topic("Async Disposable");
+topic("Indices & Ranges");
+topic("Null-Coalescing Assignment");
+topic("Unmanaged Constructed Types");
+topic("Stackalloc Nested Expressions");
+topic("Interpolated Verbatim Strings Enhancement");
+</script>
+
+<h2>C# 10 Features</h2>
+<script>
+topic("Record Structs");
+topic("Struct Improvements");
+topic("Interpolated String Handlers");
+topic("Global Using");
+topic("File Scoped Namespace");
+topic("Extended Property Patterns");
+topic("Lambda Improvements");
+topic("Const Interpolated Strings");
+topic("Record ToString Seal");
+topic("Definite Assignment Improvements");
+topic("Mixed Deconstruction");
+topic("AsyncMethodBuilder Attribute");
+topic("CallerArgumentExpression");
+topic("#line Enhancements");
+topic("Warning Wave 6");
+</script>
+
+<h2>C# 12 Features</h2>
+<script>
+topic("Primary Constructors");
+topic("Collection Expressions");
+topic("Inline Arrays");
+topic("Optional Lambda Parameters");
+topic("ref readonly Parameters");
+topic("Alias Any Type");
+topic("Experimental Attribute");
+</script>
+
+<h2>Packaging & Deployment</h2>
+<script>
+topic("File System Editor");
+topic("Registry Editor");
+topic("File Types Editor");
+topic("User Interface Editor");
+topic("Custom Actions");
+topic("Launch Condition Editor");
+topic("Uninstall Shortcut");
+</script>
+
+</body>
+</html>

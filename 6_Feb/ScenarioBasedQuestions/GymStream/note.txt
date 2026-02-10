@@ -109,3 +109,10 @@ exec SP_CreateGlobalTempTable
 usecase , class , sequence diagram - first
 use any 1 AI  model
 Ocelot = api gateway
+telegated = tables are connected with each other
+if we make changes in DB diagram , it will be reflected in Db as well
+parent transactoin rollback only
+transaction = begin - end - commit - rollback
+
+
+ EXEC sp_helpindex ' [Person].[Person]'
