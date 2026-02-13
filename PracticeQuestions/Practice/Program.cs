@@ -1,4 +1,6 @@
-﻿namespace Practice
+﻿using System.Security.AccessControl;
+
+namespace Practice
 {
     public class Program
     {
@@ -21,10 +23,20 @@
             //Console.WriteLine(IsPalindrome("Madam"));
 
             //---------------------- 6. FIND SUM OF ALL ELEMENT IN ARRAY
-            Console.WriteLine(SumofAllElement(new int[]{1,2,3,4,5}));
+            //Console.WriteLine(SumofAllElement(new int[]{1,2,3,4,5}));
 
             //---------------------- 7. MERGE TWO SORTED ARRAY
-            MergeTwoSortedArray(new int[]{1,2,3,4,6} , new int[]{5,7,8,9});
+            //MergeTwoSortedArray(new int[]{1,2,3,4,6} , new int[]{5,7,8,9});
+
+            //---------------------- 8. FREQUENCE OF WORDS IN STRING
+            //FindFrequenceOfWord("Hello world hello programing hello world");
+
+            //---------------------- 9. REVERSE WORDS FROM STRING
+            //Console.WriteLine(ReverseWords("Hello world"));
+
+            //---------------------- 10. VALID ANAGRAM
+            Console.WriteLine(ValidAnagram("bat","tab"));
+
 
 
         }
@@ -159,14 +171,54 @@
             Dictionary<string,int> dict = new Dictionary<string, int>();
             foreach(string word in words)
             {
-                if (!dict.ContainsKey(word))
+                if (dict.ContainsKey(word))
                 {
-                    
+                    dict[word]++;
                 }
+                else
+                {
+                    dict[word]=1;
+                }
+            }
+
+            //Printing frequence:
+            foreach(var item in dict)
+            {
+                Console.WriteLine($"{item.Key} - > {item.Value}");
             }
         }
 
-    }
+        public static string ReverseWords(string str)
+        {
+            string[] words = str.Split(' ');
+            string res = "";
+            for(int i=0;i<words.Length;i++)
+            {
+                res +=  ReverseString(words[i] ) + " ";
+            }
 
-    
+            return res.TrimEnd();
+            
+        }
+
+        public static bool ValidAnagram(string str1, string str2)
+        {
+            char[] arr1 = str1.ToCharArray();
+            char[] arr2 = str2.ToCharArray();
+            Array.Sort(arr1);
+            Array.Sort(arr2);
+            string sortedStr1 = new string(arr1);
+            string sortedStr2 = new string(arr2);
+            if(String.Equals(sortedStr1,sortedStr2, StringComparison.OrdinalIgnoreCase))
+                return true;
+            return false;
+        }
+
+        public static string LongestSubString(string str)
+        {
+            
+        }
+
+    }
+ 
 }
