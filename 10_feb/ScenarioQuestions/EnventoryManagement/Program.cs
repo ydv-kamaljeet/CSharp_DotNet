@@ -81,7 +81,7 @@ public class DiscountedProduct<T> where T : IProduct
         _discountPercentage = discountPercentage;
         _product = product;
  
-    }
+ ?   }
  
     // TODO: Implement calculated price with discount
     public decimal DiscountedPrice => _product.Price * (1 - _discountPercentage / 100);
