@@ -1,0 +1,17 @@
+dotnet understands = MSIL
+sql server have files in SHA15/SHA256 format
+ADO.net connect the sql server with our dotnet backend
+cs3 media based = mobile app developement
+
+some systems will not except "database" in connection string, instead we need to use "InitialCatelog"
+need to remove space from "Trust Server Certificates=True" -> "trustServerCertificate=True"
+
+open/close  - for open = if(connection is broken/closed) , for close=  if(connection is open)
+
+cmd.ExecuteSclaer()
+cmd.ExecuteNonquery()
+
+why we use @"select * from employees" ?
+> @ will tell the compiler that ignore the execution of these \n ,\t in runtime , it will take \n as \n only not a newline character
+
+
