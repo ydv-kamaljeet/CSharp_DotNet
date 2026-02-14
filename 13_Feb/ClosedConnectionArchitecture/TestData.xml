@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Employees>
+    <EmployeeId>1</EmployeeId>
+    <Department>IT</Department>
+  </Employees>
+  <Employees>
+    <EmployeeId>2</EmployeeId>
+    <Department>HR</Department>
+  </Employees>
+  <Employees>
+    <EmployeeId>3</EmployeeId>
+    <Department>Finance</Department>
+  </Employees>
+  <Employees>
+    <EmployeeId>4</EmployeeId>
+    <Department>IT</Department>
+  </Employees>
+  <Products>
+    <ProductName>Laptop</ProductName>
+    <StockQty>10</StockQty>
+  </Products>
+  <Products>
+    <ProductName>Running Shoes</ProductName>
+    <StockQty>25</StockQty>
+  </Products>
+  <Products>
+    <ProductName>Backpack</ProductName>
+    <StockQty>40</StockQty>
+  </Products>
+  <Products>
+    <ProductName>Smartphone</ProductName>
+    <StockQty>18</StockQty>
+  </Products>
+  <Products>
+    <ProductName>Coffee Maker</ProductName>
+    <StockQty>12</StockQty>
+  </Products>
+  <Products>
+    <ProductName>Bluetooth Speaker</ProductName>
+    <StockQty>30</StockQty>
+  </Products>
+</NewDataSet>

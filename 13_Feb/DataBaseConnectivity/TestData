@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <EmployeeId>1</EmployeeId>
+    <Department>IT</Department>
+  </Table>
+  <Table>
+    <EmployeeId>2</EmployeeId>
+    <Department>HR</Department>
+  </Table>
+  <Table>
+    <EmployeeId>3</EmployeeId>
+    <Department>Finance</Department>
+  </Table>
+  <Table>
+    <EmployeeId>4</EmployeeId>
+    <Department>IT</Department>
+  </Table>
+  <Table>
+    <EmployeeId>5</EmployeeId>
+    <Department>IT</Department>
+  </Table>
+</NewDataSet>
