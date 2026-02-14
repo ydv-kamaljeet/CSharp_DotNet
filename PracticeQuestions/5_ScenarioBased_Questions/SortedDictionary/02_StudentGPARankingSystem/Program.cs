@@ -7,42 +7,47 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            ManagementService service = new ManagementService();
+            StudentService service = new StudentService();
 
             while (true)
+        {
+            Console.WriteLine("\n1 → Display Ranking");
+            Console.WriteLine("2 → Update GPA");
+            Console.WriteLine("3 → Add Student");
+            Console.WriteLine("4 → Exit");
+
+            Console.Write("Choice: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            try
             {
-                Console.WriteLine("1. Display");
-                Console.WriteLine("2. Add");
-                Console.WriteLine("3. Update");
-                Console.WriteLine("4. Remove");
-                Console.WriteLine("5. Exit");
-
-                // TODO: Read user choice
-
-                int choice = 0; // TODO
-
                 switch (choice)
                 {
                     case 1:
-                        // TODO: Display data
+                        service.DisplayRanking();
                         break;
+
                     case 2:
-                        // TODO: Add entity
+                        service.UpdateGPA();
                         break;
+
                     case 3:
-                        // TODO: Update entity
+                        service.AddStudent();
                         break;
+
                     case 4:
-                        // TODO: Remove entity
-                        break;
-                    case 5:
-                        Console.WriteLine("Thank You");
                         return;
+
                     default:
-                        // TODO: Handle invalid choice
+                        Console.WriteLine("Invalid choice");
                         break;
                 }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
         }
     }
 }
