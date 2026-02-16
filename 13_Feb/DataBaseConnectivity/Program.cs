@@ -8,14 +8,14 @@ class Program
         
         //string dept = Console.ReadLine() ?? ""; //Make its default value as empty string
         int id = int.Parse(Console.ReadLine());
-        string sql = @"Delete Employees where EmployeeId = @id";
-        //string sql = "INSERT INTO dbo.Employees (FullName, Department, Salary)VALUES ('Neha Sharma', 'HR', 65000.00);";
+        //string sql = @"Delete Employees where EmployeeId = @id";
+        string sql = "INSERT INTO dbo.Products (ProductName, Category, Price)VALUES ('HP_LAPTOP', 'ELECTRONICS', 65000.00);";
         // string sql = @"UPDATE Employees SET FullName = 'sabya', Department = 'IT', Salary =69000 where EmployeeId = @id";
         using (var con = new SqlConnection(cs))
         using (var cmd = new SqlCommand(sql, con))
         {
         //    // cmd.Parameters.AddWithValue("@dept",dept);
-             cmd.Parameters.AddWithValue("@id",id);
+             //cmd.Parameters.AddWithValue("@id",id);
              con.Open();
 
 
