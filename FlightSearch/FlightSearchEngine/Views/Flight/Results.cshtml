@@ -1,0 +1,68 @@
+@model object
+
+<h2>Results</h2>
+
+@if (Model is IEnumerable<FlightResult> flights)
+{
+    if (!flights.Any())
+    {
+        <h3>No Flight Results Found</h3>
+    }
+    else
+    {
+        <table border="1">
+            <tr>
+                <th>FlightId</th>
+                <th>FlightName</th>
+                <th>FlightType</th>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>TotalCost</th>
+            </tr>
+
+            @foreach (var item in flights)
+            {
+                <tr>
+                    <td>@item.FlightId</td>
+                    <td>@item.FlightName</td>
+                    <td>@item.FlightType</td>
+                    <td>@item.Source</td>
+                    <td>@item.Destination</td>
+                    <td>@item.TotalCost</td>
+                </tr>
+            }
+        </table>
+    }
+}
+else if (Model is IEnumerable<FlightHotelResult> packages)
+{
+    if (!packages.Any())
+    {
+        <h3>No Flight + Hotel Results Found</h3>
+    }
+    else
+    {
+        <table border="1">
+            <tr>
+                <th>FlightId</th>
+                <th>FlightName</th>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>HotelName</th>
+                <th>TotalCost</th>
+            </tr>
+
+            @foreach (var item in packages)
+            {
+                <tr>
+                    <td>@item.FlightId</td>
+                    <td>@item.FlightName</td>
+                    <td>@item.Source</td>
+                    <td>@item.Destination</td>
+                    <td>@item.HotelName</td>
+                    <td>@item.TotalCost</td>
+                </tr>
+            }
+        </table>
+    }
+}

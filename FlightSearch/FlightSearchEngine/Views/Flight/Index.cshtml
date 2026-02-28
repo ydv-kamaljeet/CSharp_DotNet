@@ -1,0 +1,27 @@
+@model SearchViewModel
+
+<form asp-controller="Flight" method="post">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <select asp-for="Source" asp-items="Model.SourceList"></select>
+    </div>
+
+    <div>
+        <select asp-for="Destination" asp-items="Model.DestinationList"></select>
+    </div>
+
+    <div>
+        <input asp-for="NumberOfPersons" type="number" />
+    </div>
+
+    <button type="submit"
+            asp-action="SearchFlights">
+        Search Flights Only
+    </button>
+
+    <button type="submit"
+            asp-action="SearchFlightsWithHotels">
+        Search Flight + Hotel
+    </button>
+</form>
