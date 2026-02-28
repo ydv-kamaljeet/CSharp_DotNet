@@ -1,0 +1,49 @@
+@model IEnumerable<DbFirstDemo.Models.Employees>
+@{
+    var itStaff = ViewData["ITEmployees"] as List<Employees>;
+}
+<h2>Employees</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>EmployeeId</th>
+      <th>FullName</th>
+      <th>Department</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var r in Model)
+  {
+      <tr>
+        <td>@r.EmployeeId</td>
+        <td>@r.FullName</td>
+        <td>@r.Department</td>
+        <td>@r.Salary</td>
+      </tr>
+  }
+  </tbody>
+</table>
+
+<h1>Average : @ViewBag.Avg</h1>
+
+<h2>Employees</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>EmployeeId</th>
+      <th>FullName</th>
+      <th>Department</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach(var emp in @itStaff){
+    <tr>
+        <td>@emp.EmployeeId</td>
+        <td>@emp.FullName</td>
+        <td>@emp.Department</td>
+        <td>@emp.Salary</td>
+     </tr>
+}

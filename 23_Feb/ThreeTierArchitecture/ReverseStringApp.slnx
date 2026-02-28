@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ReverseStringApp.BL/ReverseStringApp.BL.csproj" />
+  <Project Path="ReverseStringApp.DAL/ReverseStringApp.DAL.csproj" />
+  <Project Path="ReverseStringApp.UI/ReverseStringApp.UI.csproj" />
+</Solution>
