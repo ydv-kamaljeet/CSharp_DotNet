@@ -1,0 +1,28 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Delete Book";
+}
+
+<div class="form-card">
+    <h1>Delete Book</h1>
+    <p class="warning-text">Are you sure you want to remove this book? This cannot be undone.</p>
+
+    <dl>
+        <dt>Title</dt>
+        <dd>@Model.Title</dd>
+
+        <dt>Author</dt>
+        <dd>@Model.Author</dd>
+
+        <dt>Price</dt>
+        <dd>₹@Model.Price.ToString("0.00")</dd>
+    </dl>
+
+    <form asp-action="Delete" asp-route-id="@Model.BookId" method="post">
+        <div class="form-actions">
+            <button type="submit" class="btn btn-danger">Yes, Delete</button>
+            <a href="/Book/List" class="btn">Cancel</a>
+        </div>
+    </form>
+</div>

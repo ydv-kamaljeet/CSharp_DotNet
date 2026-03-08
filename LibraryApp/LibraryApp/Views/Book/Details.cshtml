@@ -1,0 +1,25 @@
+@model Book
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="detail-card">
+    <h1>@Model.Title</h1>
+
+    <dl>
+        <dt>Book ID</dt>
+        <dd>@Model.BookId</dd>
+
+        <dt>Author</dt>
+        <dd>@Model.Author</dd>
+
+        <dt>Price</dt>
+        <dd>₹@Model.Price.ToString("0.00")</dd>
+    </dl>
+
+    <div class="detail-actions">
+        <a href="/Book/List" class="btn">← Back to List</a>
+        <a href="/Book/Delete/@Model.BookId" class="btn btn-danger">Delete</a>
+    </div>
+</div>
